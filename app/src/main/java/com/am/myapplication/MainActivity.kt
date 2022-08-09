@@ -28,8 +28,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
 
+@Composable
 fun HelloScreen() {
     // A surface container using the 'background' color from the theme
     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
