@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.am.myapplication.ui.MyBasicComposeCodeLabApp
 import com.am.myapplication.ui.column_row.GreetingsLazyColumn
 import com.am.myapplication.ui.hello.HelloScreen
 import com.am.myapplication.ui.theme.AbedComposePlaygroundTheme
@@ -16,7 +17,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             AbedComposePlaygroundTheme {
 //                HelloScreen()
-                GreetingsLazyColumn()
+//                GreetingsLazyColumn()
+                MyBasicComposeCodeLabApp()
             }
         }
     }
